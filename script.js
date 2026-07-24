@@ -1,5 +1,29 @@
 const eventMixCenterFix = document.createElement('style');
 eventMixCenterFix.textContent = `
+  .brand {
+    gap: 0 !important;
+  }
+
+  .brand-mark {
+    width: 178px !important;
+    height: 58px !important;
+    border-radius: 0 !important;
+    background: url('/assets/brand/event-gumbo-logo-horizontal.svg') center / contain no-repeat !important;
+    overflow: visible !important;
+    transform: none !important;
+    flex: 0 0 auto !important;
+  }
+
+  .brand-mark span,
+  .brand-name {
+    display: none !important;
+  }
+
+  .footer-brand .brand-mark {
+    width: 164px !important;
+    height: 54px !important;
+  }
+
   .mix-core {
     position: relative !important;
     display: block !important;
@@ -50,6 +74,18 @@ eventMixCenterFix.textContent = `
     display: flex !important;
     justify-content: space-between !important;
     text-align: center !important;
+  }
+
+  @media (max-width: 720px) {
+    .brand-mark {
+      width: 142px !important;
+      height: 48px !important;
+    }
+
+    .footer-brand .brand-mark {
+      width: 148px !important;
+      height: 50px !important;
+    }
   }
 `;
 document.head.appendChild(eventMixCenterFix);
