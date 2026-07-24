@@ -1,3 +1,59 @@
+const eventMixCenterFix = document.createElement('style');
+eventMixCenterFix.textContent = `
+  .mix-core {
+    position: relative !important;
+    display: block !important;
+    padding: 0 !important;
+    transform: none !important;
+    text-align: center !important;
+  }
+
+  .mix-core .core-topline {
+    position: absolute !important;
+    top: 18% !important;
+    left: 50% !important;
+    width: 88% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  .mix-core .core-count {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 88% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .mix-core .core-count span,
+  .mix-core .core-count small {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .mix-core .core-footer {
+    position: absolute !important;
+    left: 50% !important;
+    bottom: 15% !important;
+    width: 72% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    text-align: center !important;
+  }
+`;
+document.head.appendChild(eventMixCenterFix);
+
 const revealElements = document.querySelectorAll('.reveal');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
