@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Event Gumbo mark">
+  <g fill="none" stroke="#F7F2E8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 158 Q256 112 400 158" stroke-width="42"/>
+    <path d="M229 91 H293 Q309 91 307 108 L304 132" stroke-width="34"/>
+    <path d="M121 222 C73 290 92 385 196 424" stroke-width="64"/>
+    <path d="M391 221 C439 289 420 386 316 424" stroke-width="64"/>
+    <path d="M213 398 C244 376 287 390 305 427 C320 459 287 481 249 467" stroke-width="58"/>
+  </g>
+</svg>
