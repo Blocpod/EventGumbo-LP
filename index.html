@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Event Gumbo brings the people, places, and details for your event together in one simple place." />
+  <meta name="theme-color" content="#f4efe5" />
+  <title>Event Gumbo | Everything your event needs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Event Gumbo home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="brand-name">Event Gumbo</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#how">How it works</a><a href="#pros">For pros</a><a href="#early-access">Get early access</a>
+    </nav>
+    <a class="header-cta" href="#early-access">Join the list</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="live-dot"></span> A better way to pull an event together</p>
+        <h1>Everything your event needs.<br><em>In the mix.</em></h1>
+        <p class="hero-sub">Find the right people, compare your options, book with confidence, and keep every detail in one place.</p>
+        <form class="plan-box" id="plan-form">
+          <div class="field field-main"><label for="event-type">What are you planning?</label><input id="event-type" name="event-type" type="text" placeholder="A rooftop birthday for 80 people" autocomplete="off" /></div>
+          <div class="field compact-field"><label for="location">Where?</label><input id="location" name="location" type="text" placeholder="Miami, FL" autocomplete="address-level2" /></div>
+          <button type="submit" class="primary-button"><span>Start the mix</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+        <p class="microcopy">No endless calls. No mystery pricing. No crossed fingers.</p>
+      </div>
+
+      <div class="mix-stage reveal" aria-label="Event services coming together">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="mix-core"><div class="core-topline">YOUR EVENT MIX</div><div class="core-count"><span id="mix-count">06</span><small>pieces ready</small></div><div class="core-footer"><span>Miami</span><span>Sep 18</span></div></div>
+        <button class="mix-chip chip-one" data-label="Live music"><span>♫</span> Live music</button>
+        <button class="mix-chip chip-two" data-label="Photo"><span>◉</span> Photo</button>
+        <button class="mix-chip chip-three" data-label="Drinks"><span>✦</span> Drinks</button>
+        <button class="mix-chip chip-four" data-label="Lighting"><span>⌁</span> Lighting</button>
+        <button class="mix-chip chip-five" data-label="Food"><span>◇</span> Food</button>
+        <button class="mix-chip chip-six" data-label="Venue"><span>⌂</span> Venue</button>
+        <div class="stage-note">Tap a piece to remix</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Popular services"><div class="ticker-track"><span>BANDS</span><i></i><span>DJS</span><i></i><span>BARTENDERS</span><i></i><span>PHOTOGRAPHERS</span><i></i><span>VENUES</span><i></i><span>CATERERS</span><i></i><span>RENTALS</span><i></i><span>PERFORMERS</span><i></i><span>BANDS</span><i></i><span>DJS</span><i></i><span>BARTENDERS</span><i></i><span>PHOTOGRAPHERS</span><i></i><span>VENUES</span><i></i><span>CATERERS</span><i></i><span>RENTALS</span><i></i><span>PERFORMERS</span><i></i></div></section>
+
+    <section class="how-section section-shell" id="how">
+      <div class="section-heading reveal"><p class="eyebrow">HOW IT WORKS</p><h2>Less chasing.<br>More celebrating.</h2></div>
+      <div class="steps-grid">
+        <article class="step-card card-coral reveal"><div class="step-number">01</div><div class="step-visual visual-brief" aria-hidden="true"><div class="typed-line">Rooftop dinner</div><div class="typed-line short">80 guests</div><div class="typed-line tiny">Miami</div></div><h3>Tell us the plan</h3><p>Share the basics, the vibe, and what matters most. We turn it into a clear event brief.</p></article>
+        <article class="step-card card-yellow reveal"><div class="step-number">02</div><div class="step-visual visual-stack" aria-hidden="true"><div class="mini-profile profile-a"><span>DJ</span><b>4.9</b></div><div class="mini-profile profile-b"><span>BAR</span><b>5.0</b></div><div class="mini-profile profile-c"><span>PHOTO</span><b>4.8</b></div></div><h3>Meet your mix</h3><p>See available pros who fit the event, the budget, and each other. Compare without the chaos.</p></article>
+        <article class="step-card card-blue reveal"><div class="step-number">03</div><div class="step-visual visual-check" aria-hidden="true"><div class="check-ring"><svg viewBox="0 0 24 24"><path d="m6 12 4 4 8-9"/></svg></div><span>BOOKING BACKED</span></div><h3>Book it. We back it.</h3><p>Keep payments, messages, schedules, and backup support together through event day.</p></article>
+      </div>
+    </section>
+
+    <section class="feature-band" id="pros">
+      <div class="feature-copy reveal"><p class="eyebrow light">BUILT FOR THE WHOLE EVENT</p><h2>The people who make it happen deserve better tools too.</h2><p>Event Gumbo gives great event pros a cleaner way to get discovered, send real quotes, manage bookings, and build lasting client relationships.</p><a href="#early-access" class="text-link">Join as an event pro <span>↗</span></a></div>
+      <div class="feature-board reveal" aria-label="Provider booking dashboard preview"><div class="board-header"><span>NEW REQUEST</span><span class="status-pill">GOOD FIT</span></div><div class="board-title">Sunset product launch</div><div class="board-meta"><span>120 guests</span><span>Oct 04</span><span>Miami Beach</span></div><div class="match-row"><div class="match-score"><strong>94%</strong><small>match</small></div><div class="match-reasons"><span>Budget fits</span><span>Date open</span><span>12 miles away</span></div></div><div class="board-actions"><button>Pass</button><button class="send-quote">Send a quote</button></div></div>
+    </section>
+
+    <section class="trust-section section-shell"><div class="trust-quote reveal"><p>“The fun part should be the event.<br>Not finding people for it.”</p></div><div class="trust-grid"><article class="trust-item reveal"><span class="trust-icon">✓</span><h3>Clear from the start</h3><p>Real availability, useful price ranges, and details that help you decide.</p></article><article class="trust-item reveal"><span class="trust-icon">◎</span><h3>People you can trust</h3><p>Better profiles, meaningful reviews, and verification where it matters.</p></article><article class="trust-item reveal"><span class="trust-icon">↻</span><h3>Support when plans change</h3><p>Help before event day, not just a refund after something goes wrong.</p></article></div></section>
+
+    <section class="signup-section" id="early-access"><div class="signup-orb orb-left" aria-hidden="true"></div><div class="signup-orb orb-right" aria-hidden="true"></div><div class="signup-content reveal"><p class="eyebrow">COMING TO THE FIRST CITIES SOON</p><h2>Let’s get something<br>good cooking.</h2><p>Join the early list for launch access, local updates, and a chance to shape what we build.</p><form class="signup-form" name="early-access" method="POST" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="early-access" /><p class="hidden-field"><label>Do not fill this out: <input name="bot-field" /></label></p><label class="sr-only" for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@email.com" required /><select name="role" aria-label="I am a"><option value="planning">Planning an event</option><option value="pro">An event professional</option><option value="venue">A venue</option></select><button type="submit">Get early access</button></form><p class="form-note" id="form-note">No spam. Just the good stuff.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-name">Event Gumbo</span></a><p>Everything your event needs. In the mix.</p><div class="footer-links"><a href="#how">How it works</a><a href="#pros">For pros</a><a href="#early-access">Early access</a></div><span class="copyright">© <span id="year"></span> Event Gumbo</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"><span class="toast-icon">✓</span><div><strong>Your mix is started.</strong><small>We’ll show you the right next step.</small></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
