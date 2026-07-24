@@ -8,7 +8,7 @@ eventMixCenterFix.textContent = `
     width: 178px !important;
     height: 58px !important;
     border-radius: 0 !important;
-    background: url('/assets/brand/event-gumbo-logo-horizontal.svg') center / contain no-repeat !important;
+    background: url('/assets/brand/event-gumbo-logo-horizontal.svg?v=2') center / contain no-repeat !important;
     overflow: visible !important;
     transform: none !important;
     flex: 0 0 auto !important;
